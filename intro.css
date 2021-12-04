@@ -1,0 +1,28 @@
+.product {
+  background-color: rgba(0, 0, 0, 0);
+  background-image: linear-gradient(rgba(69, 123, 157, 0), rgba(69, 123, 157, 1) 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll, fixed;
+  background-position: 0 0, center top;
+
+  padding-top: 150px;
+  padding-bottom: 120px;
+}
+
+.product img {
+  max-width: 190px;
+  border-radius: 25px;
+}
+
+.product img:hover {
+  max-width: 180px;
+  border-radius: 25px;
+  box-shadow: 10px 10px 10px 10px rgba(29, 53, 87, 0.5);
+}
+
+.between {
+  text-align: justify;
+  -moz-text-align-last: justify;
+  text-align-last: justify;
+}

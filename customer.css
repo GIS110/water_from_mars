@@ -1,0 +1,49 @@
+.customer {
+  padding-top: 10px;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: linear-gradient(rgba(69, 123, 157, 1), rgba(69, 123, 157, 0) 100%),
+  url("image/w6.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll, fixed;
+  background-position: 0 0, center top;
+
+  padding-bottom: 50px;
+}
+
+.customer-image {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 130px;
+}
+
+.customer-photo {
+  border: 7px solid #f1faee;
+  border-radius: 100%;
+  height: auto;
+}
+
+.customer-details {
+  display: block;
+  text-align: inherit;
+}
+
+.customer p {
+  margin-top: 10px;
+  line-height: 24px;
+  font-weight: normal;
+  font-style: italic;
+  background-color: rgba(29, 53, 87, 0.3);
+  padding: 5px;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap
+}
+
+article {
+  flex: 1;
+  padding: 10px;
+}

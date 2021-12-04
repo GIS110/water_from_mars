@@ -1,0 +1,54 @@
+.sticky {
+  position: sticky;
+  top: 0;
+  min-height: 30px;
+  background: #457b9d;
+  opacity: 0.9;
+  width: 100%;
+  box-shadow: 0 11px 0 rgba(29, 53, 87, 0.9); /* Параметры тени */
+  padding: 10px 0;
+}
+
+nav a {
+  display: inline-block;
+  color: #f1faee;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 15px 0 15px 15px;
+  text-shadow: 2px 1px 1px rgba(29, 53, 87, 0.9);
+}
+
+nav a:hover {
+  color: #A8DADC;
+  transition: all ease .3s;
+  font-weight: bolder;
+}
+
+.sticky-right {
+  float: right;
+}
+
+.sticky-left {
+  float: left;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 15px;
+  color: #f1faee;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 15px 30px;
+  text-shadow: 2px 1px 1px rgba(29, 53, 87, 0.9);
+  font-weight: bold;
+}
+
+.button-mars {
+  background: #e63946;
+}
+
+.button-mars:hover {
+  background: #B61624;
+  transition: all ease .3s;
+}

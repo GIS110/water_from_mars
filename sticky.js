@@ -1,0 +1,10 @@
+$(function(){
+    $('nav a').click(function(){
+        let id = $(this).attr('href');
+
+        $('html, body').animate({
+            scrollTop: ($(id).offset().top - 76)
+        }, 500);
+        return false;
+    });
+});

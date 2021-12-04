@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+.buffer-top {
+  margin-top: 20px;
+}
+
+.buffer-bottom {
+  margin-bottom: 40px;
+}
+
+.buffer-large {
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.buffer {
+  margin: 40px;
+}
+
+.column-left {
+  max-width: 310px;
+  float: left;
+  text-align: center;
+}
+
+.column-right {
+  max-width: 310px;
+  float: right;
+  text-align: center;
+}
+
+.float-left {
+  float: left;
+  margin-right: 20px;
+}
+
+.float-right {
+  float: right;
+  margin-left: 20px;
+}
+
+.wrap {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
