@@ -16,7 +16,7 @@
 }
 
 .product img:hover {
-  max-width: 180px;
+  filter: grayscale(60%);
   border-radius: 25px;
   box-shadow: 10px 10px 10px 10px rgba(29, 53, 87, 0.5);
 }

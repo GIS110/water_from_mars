@@ -52,3 +52,9 @@ nav a:hover {
   background: #B61624;
   transition: all ease .3s;
 }
+
+@media (max-width: 480px) {
+  .sticky {
+    position: inherit;
+  }
+}
